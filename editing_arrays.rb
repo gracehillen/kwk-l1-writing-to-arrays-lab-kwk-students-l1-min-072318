@@ -7,7 +7,7 @@ rainbow_colors = [
 def change_rainbow_colors
   return rainbow_colors[0] = "red"
   return rainbow_colors[1] = "light_red"
-  return rainbow_colors[2] = "light_yellow"
+  rainbow_colors[2] = "light_yellow"
 end
 
 change_rainbow_colors
